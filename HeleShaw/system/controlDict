@@ -22,10 +22,9 @@ startTime       0;
 
 stopAt          endTime;
 
-endTime         0.1;
+endTime         5;
 
 deltaT          1.29e-7;
-
 
 adjustTimeStep yes;
 maxCo 0.5;       // Idealmente < 1
@@ -60,7 +59,7 @@ functions
         valueOutput     true;
         operation       areaIntegrate;
         regionType      patch;
-        name            inlet;
+        name            outlet;
         fields          (U);
     }
 }

@@ -1,12 +1,3 @@
-// Geometry 
-xDir   0.00169;
-yDir   1.20e-3;
-zDir   5.5e-5;
-
-//Mesh 
-xMesh  100;
-yMesh  50;
-zMesh  1;
 
 //Velocity
 inletVelocity (2.6e-5 0 0);

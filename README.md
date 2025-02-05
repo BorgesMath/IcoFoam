@@ -1,4 +1,6 @@
 ### IcoFoam e o Escoamento de Hele-Shaw
+[NOTION DA SIMULAÇÃO](https://www.notion.so/IcoFoam-1915cfe25b5f802da782eab6816d821f)
+
 
 ### **Introdução ao IcoFoam**
 
@@ -23,5 +25,3 @@ The geometry consists of a microfluidic channel packed with a quasi-monolayer of
 - **Mean equivalent grain diameter (dp):** 53 ± 24 μm
 - **Mean porosity (ϕ):** 0.27
 
-
-# NOTION DA SIMULAÇÃO: https://www.notion.so/IcoFoam-1915cfe25b5f802da782eab6816d821f

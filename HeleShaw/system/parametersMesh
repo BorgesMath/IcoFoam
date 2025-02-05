@@ -1,12 +1,12 @@
 // Geometry1
-xDir   0.06;
-yDir   0.01;
-zDir   5.5e-5;
+//xDir   0.06;
+//yDir   0.01;
+//zDir   5.5e-5;
 
 // Geometry2
-xDir   0.00169;
-yDir   1.20e-3;
-zDir   5.5e-5;
+//xDir   0.00169;
+//yDir   1.20e-3;
+//zDir   5.5e-5;
 
 //Geometry3
 xDir   0.1;

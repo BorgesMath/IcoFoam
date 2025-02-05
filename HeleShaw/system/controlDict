@@ -1,0 +1,69 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v2406                                 |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      controlDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+application     icoFoam;
+
+startFrom       startTime;
+
+startTime       0;
+
+stopAt          endTime;
+
+endTime         0.5;
+
+deltaT          1e-5;
+
+adjustTimeStep yes;
+maxCo 0.5;       // Idealmente < 1
+maxDeltaT 1e-5;  // Limita o máximo de deltaT
+
+writeControl    timeStep;
+
+writeInterval   20;
+
+purgeWrite      0;
+
+writeFormat     ascii;
+
+writePrecision  6;
+
+writeCompression off;
+
+timeFormat      general;
+
+timePrecision   6;
+
+runTimeModifiable true;
+
+functions
+{
+    inletFlow
+    {
+        type            surfaceFieldValue;
+        libs ("libinletFlow.so");
+        log             true;
+        writeFields     false; // Opcional, mas evita confusões
+        valueOutput     true;
+        operation       areaIntegrate;
+        regionType      patch;
+        name            inlet;
+        fields          (U);
+    }
+}
+
+
+
+// ************************************************************************* //

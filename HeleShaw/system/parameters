@@ -1,7 +1,7 @@
 
 //Velocity
-inletVelocity (2.6e-5 0 0);
+inletVelocity (0.02 0 0);
 
 //transport values 
-nu 1.109e-3;
+nu 0.00001789;
 

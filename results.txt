@@ -1,0 +1,10 @@
+HeleShaw_Ref1 2.200221e-08 80
+HeleShaw_Ref2 2.200221e-08 180
+HeleShaw_Ref3 2.200221e-08 320
+HeleShaw_Ref4 2.200221e-08 500
+HeleShaw_Ref5 2.200221e-08 720
+HeleShaw_Ref6 2.200221e-08 980
+HeleShaw_Ref7 2.200221e-08 1280
+HeleShaw_Ref8 2.200221e-08 1620
+HeleShaw_Ref9 2.200221e-08 2000
+HeleShaw_Ref10 2.200221e-08 2420

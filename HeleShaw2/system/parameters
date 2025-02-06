@@ -1,0 +1,7 @@
+
+//Velocity
+inletVelocity (26e-6 0 0);
+
+//transport values 
+nu 1.109e-3;
+

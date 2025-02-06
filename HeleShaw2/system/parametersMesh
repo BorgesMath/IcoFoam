@@ -1,0 +1,10 @@
+// Geometry2
+xDir   0.00169;
+yDir   1.20e-3;
+zDir   5.5e-5;
+
+//Mesh 
+xMesh  100;
+yMesh  70;
+zMesh  1;
+

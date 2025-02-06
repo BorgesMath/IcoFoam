@@ -7,6 +7,7 @@
         "**/constant/**": "OpenFOAM",
         "**/0.orig/*": "OpenFOAM",
         "**/0/*": "OpenFOAM",
-        "codeStreamTemplate.C": "cpp"
+        "codeStreamTemplate.C": "cpp",
+        "parametersmesh": "cpp"
     }
 }

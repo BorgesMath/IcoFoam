@@ -38,7 +38,7 @@ while [ $iteration -le 10 ]; do
     # Executar a simulação
     cd "$case_name" || exit
     blockMesh
-    icoFoam
+    icoFoam | tee log.icoFoam
     cd ..
 
     # Extrair o fluxo de entrada do arquivo do caso atual

@@ -22,9 +22,9 @@ startTime       0;
 
 stopAt          endTime;
 
-endTime         10;
+endTime         0.1;
 
-deltaT          0.05; // deltaX = xDir/xMesh / U = 
+deltaT          1.29e-7; // deltaX = (xDir/xMesh) / U 
 
 
 adjustTimeStep yes;
@@ -33,7 +33,7 @@ maxDeltaT 1e-5;  // Limita o máximo de deltaT
 
 writeControl    timeStep;
 
-writeInterval   20;
+writeInterval   50;
 
 purgeWrite      0;
 

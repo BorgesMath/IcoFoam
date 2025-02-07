@@ -1,6 +1,6 @@
 #!/bin/bash
 
-base_case="HeleShaw"
+base_case="HeleShaw3"
 increment=10     
 iteration=1      
 

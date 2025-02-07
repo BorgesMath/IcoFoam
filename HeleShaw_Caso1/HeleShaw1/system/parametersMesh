@@ -1,0 +1,11 @@
+// Geometry1
+xDir   0.06; // CHECK 
+yDir   0.01; // CHECK
+zDir   5.5e-5; // CHECK
+
+
+
+//Mesh 
+xMesh  100; // CHECK
+yMesh  16; // CHECK
+zMesh  1; // CHECK

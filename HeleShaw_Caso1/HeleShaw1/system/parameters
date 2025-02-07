@@ -1,0 +1,7 @@
+
+//Velocity
+inletVelocity (6.06e-4 0 0); // CHECK
+
+//transport values 
+nu 0.89e-3; // CHECK
+

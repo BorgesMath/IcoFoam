@@ -5,6 +5,6 @@ zDir   5.5e-5;
 
 
 //Mesh 
-xMesh  10;
-yMesh  2;
+xMesh  40;
+yMesh  4;
 zMesh  1;

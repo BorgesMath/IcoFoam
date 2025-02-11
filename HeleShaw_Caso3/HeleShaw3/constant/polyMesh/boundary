@@ -21,28 +21,28 @@ FoamFile
     inlet
     {
         type            patch;
-        nFaces          2;
-        startFace       28;
+        nFaces          4;
+        startFace       276;
     }
     outlet
     {
         type            patch;
-        nFaces          2;
-        startFace       30;
+        nFaces          4;
+        startFace       280;
     }
     walls
     {
         type            wall;
         inGroups        1(wall);
-        nFaces          20;
-        startFace       32;
+        nFaces          80;
+        startFace       284;
     }
     frontAndBack
     {
         type            empty;
         inGroups        1(empty);
-        nFaces          40;
-        startFace       52;
+        nFaces          320;
+        startFace       364;
     }
 )
 

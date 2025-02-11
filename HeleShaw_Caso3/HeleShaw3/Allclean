@@ -15,4 +15,6 @@ rm -rf postProcessing
 # Remove log files
 rm -f log.*
 
+rm -r dynamicCode
+
 echo "Case cleaned successfully!"
